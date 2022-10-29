@@ -1,0 +1,62 @@
+.heading > h1 {
+  margin-top: 100px;
+}
+.heading > h1:hover {
+  color: rgb(0, 92, 128);
+  cursor: pointer;
+}
+.heading > hr {
+  border: 3px solid rgb(0, 92, 128);
+  width: 80px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.heading > hr:hover {
+  border: 3px solid rgb(162, 202, 218);
+}
+.heading > p {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.skill div {
+  margin-top: 1rem;
+  width: 200px;
+  height: 20vh;
+  padding: 3rem;
+  margin-bottom: 2rem;
+ 
+}
+.skill div > img {
+  width: 54%;
+}
+.skill div > img:hover {
+  width: 60%;
+}
+.skill div > p {
+  width: 60px;
+  text-align: center;
+}
+.skill div > p:hover {
+  width: 70px;
+  color: rgb(17, 233, 190);
+  text-align: center;
+}
+@media screen and (max-width: 1140px) {
+  .skill {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading > p {
+    cursor: pointer;
+    width: 350px;
+  }
+}
