@@ -13,7 +13,7 @@ const Heroimg = () => {
       <div className="profile">
         <img src={pp} alt="" />
       </div>
-        <p>hi , i'm lipan padhan a passionate </p>
+        <p>hi , i'm <span>Lipan Padhan</span> a passionate </p>
         <h1>Full-Stack Developer</h1>
         <div>
           <Link to="/project" className="btn">
