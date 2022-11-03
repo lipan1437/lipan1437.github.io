@@ -40,14 +40,14 @@
  border: 1px solid #333;
 }
 
-.right .top {
+.right .top  {
 
     grid-column: 1 / span 8;
     grid-row: 1;
     padding-top: 20%;
     z-index: 6;
 }
-.right .bottom {
+.right .bottom{
 
     grid-column: 4 / -1;
     grid-row: 1;
