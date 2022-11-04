@@ -90,9 +90,6 @@ const MySkills = () => {
   return (
     <div>
       <div className="heading">
-        <h1>Skills</h1>
-        <hr />
-        <p>These are the technologies, I have worked with and used in my projects.</p>
       </div>
       <div className="skill">
         {techs.map(({ id, src, title, style }) => (

@@ -51,7 +51,7 @@
   color: rgb(17, 233, 190);
   text-align: center;
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 900px) {
   .skill {
     grid-template-columns: repeat(2, 1fr);
   }
