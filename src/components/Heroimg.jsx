@@ -22,6 +22,9 @@ const Heroimg = () => {
           <Link to="/contact" className="btn btn-light">
           Contact
           </Link>
+          <button className="btn btn-light">
+          <a href="https://drive.google.com/file/d/1GVua_3kW2MZGUMdGNApSG-m6lu-fDwXW/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume</a>
+          </button>
         </div>
       </div>
     </div>

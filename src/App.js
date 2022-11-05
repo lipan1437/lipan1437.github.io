@@ -6,7 +6,7 @@ import About from "./routes/About";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 import Skills from "./routes/Skills";
-import Resume from "./routes/Resume";
+// import Resume from "./routes/Resume";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
+        {/* <Route path="/resume" element={<Resume />} /> */}
       </Routes>
     </>
   );
