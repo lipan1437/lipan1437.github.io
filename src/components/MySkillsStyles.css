@@ -25,16 +25,17 @@
   grid-gap: 1rem;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .skill div {
   margin-top: 1rem;
   width: 200px;
-  height: 20vh;
+  height: 25vh;
   padding: 3rem;
+  margin-left: 4rem;
   margin-bottom: 2rem;
- 
+
 }
 .skill div > img {
   width: 54%;
