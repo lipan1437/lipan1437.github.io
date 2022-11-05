@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a3fcb2c.css",
-    "main.js": "/static/js/main.1d48180f.js",
+    "main.css": "/static/css/main.195d7f69.css",
+    "main.js": "/static/js/main.feef8549.js",
     "static/media/aboutBanner2.jpg": "/static/media/aboutBanner2.942047a3286518ee3439.jpg",
     "static/media/pro1.png": "/static/media/pro1.92363aa88695e13c0d2b.png",
     "static/media/pro2.png": "/static/media/pro2.5cf4f635abe5d0bcd736.png",
-    "static/media/Lipan_Padhan_Resume.pdf": "/static/media/Lipan_Padhan_Resume.d377b1cc02676f0f5c0f.pdf",
     "static/media/aboutBanner1.jpg": "/static/media/aboutBanner1.a3ab24db32def5be6b15.jpg",
     "static/media/jefferson-santos-9SoCnyQmkzI-unsplash.jpg": "/static/media/jefferson-santos-9SoCnyQmkzI-unsplash.dbab826cdf0aab6436f4.jpg",
     "static/media/myPp.jpg": "/static/media/myPp.557a24a179bcc421961a.jpg",
@@ -18,11 +17,11 @@
     "static/media/express.png": "/static/media/express.1182731d0fa4994589eb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.7a3fcb2c.css.map": "/static/css/main.7a3fcb2c.css.map",
-    "main.1d48180f.js.map": "/static/js/main.1d48180f.js.map"
+    "main.195d7f69.css.map": "/static/css/main.195d7f69.css.map",
+    "main.feef8549.js.map": "/static/js/main.feef8549.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a3fcb2c.css",
-    "static/js/main.1d48180f.js"
+    "static/css/main.195d7f69.css",
+    "static/js/main.feef8549.js"
   ]
 }
