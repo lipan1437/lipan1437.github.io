@@ -11,7 +11,7 @@ const Heroimg = () => {
       </div>
       <div className="content">
       <div className="profile">
-        <img src={pp} alt="" />
+        <img src={pp} alt="mypp" />
       </div>
         <p>hi , i'm <span>Lipan Padhan</span> a passionate </p>
         <h1>Full-Stack Developer</h1>

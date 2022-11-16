@@ -13,6 +13,7 @@ const Form = () => {
       <form
         method="POST"
         action="https://getform.io/f/89e0d57c-eee5-4446-893e-cda0ca4d0035"
+        target="_blank"
         onSubmit={handleSubmit}
       >
         <label>Your Name</label>

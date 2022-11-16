@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
   .hero-img h1 {
     font-size: 2rem;
   }
