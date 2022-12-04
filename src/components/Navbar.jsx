@@ -1,4 +1,6 @@
-import "./NavbarStyles.css";
+import styles from "./Navbar.module.css"
+import  "./NavbarStyles.css";
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -27,7 +29,9 @@ const Navbar = () => {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/"   className={({ isActive }) => {
+            return isActive ? styles.active : styles.default;
+          }} end >Home</Link>
         </li>
         <li>
           <Link to="/about">About Me</Link>
