@@ -2,8 +2,19 @@ import styles from "./Navbar.module.css"
 import  "./NavbarStyles.css";
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+
+
+
+
+const links = [
+  { path: "/", title: "Home" },
+  { path: "/about", title: "About Me" },
+  { path: "/skills", title: "Skills" },
+  { path: "/project", title: "Project" },
+  { path: "/contact", title: "Contact" },
+];
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -28,10 +39,8 @@ const Navbar = () => {
         <h1>Lipan Padhan</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
-          <Link to="/"   className={({ isActive }) => {
-            return isActive ? styles.active : styles.default;
-          }} end >Home</Link>
+        {/* <li>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about">About Me</Link>
@@ -44,7 +53,22 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/contact">Contact</Link>
-        </li>
+        </li> */}
+  <li>
+  {links.map((link) => (
+        <NavLink
+          className={({ isActive }) => {
+            return isActive ? styles.active : styles.default;
+          }}
+          key={link.path}
+          to={link.path}
+          end
+        >
+          {link.title}
+        </NavLink>
+      ))}
+  </li>
+
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

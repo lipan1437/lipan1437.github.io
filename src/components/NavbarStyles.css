@@ -8,9 +8,13 @@
   height: 90px;
   z-index: 10;
 }
+.header  h1:hover {
+ color: #52b788;
+}
 .header-bg {
   background-color: rgba(0, 0, 0, 0.85);
   transition: 0.5s;
+
 }
 .nav-menu {
   display: flex;
@@ -43,6 +47,7 @@
   }
   .nav-menu.active {
     left: 0;
+    color: red;
   }
   .nav-menu > li {
     padding: 1rem 0;
