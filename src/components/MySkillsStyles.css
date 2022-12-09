@@ -1,3 +1,4 @@
+
 .heading > h1 {
   margin-top: 100px;
 }
@@ -19,23 +20,33 @@
   margin-top: 10px;
 }
 
+.main{
+  width: 100%;
+  margin:3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
 .skill {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 0.2rem;
   justify-content: center;
   align-items: center;
+  margin-left: 80px;
   width: 100%;
-  margin: auto;
+  height: 100%;
 }
+
 .skill div {
   margin-top: 1rem;
   width: 200px;
   height: 25vh;
   padding: 48px;
-  margin-left: 100px;
   margin-bottom: 50px;
-  
 }
 .skill div > img {
   width: 54%;
@@ -54,8 +65,12 @@
   text-align: center;
 }
 @media screen and (max-width: 767px) {
+  .main{
+   overflow: hidden;
+  }
   .skill {
     grid-template-columns: repeat(2, 1fr);
+    margin-right: 51px;
   }
   .skill div {
     width: 200px;

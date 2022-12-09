@@ -88,7 +88,7 @@ const MySkills = () => {
     },
   ];
   return (
-    <div>
+    <div className="main">
       <div className="heading">
       </div>
       <div className="skill">
