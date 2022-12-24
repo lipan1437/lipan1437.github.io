@@ -33,8 +33,9 @@
   flex-direction: column;
   padding: 1rem;
 }
-.socal {
+.social {
   margin-top: 1rem;
+  padding: 0.5rem 0rem;
 }
 
 h4 {

@@ -93,7 +93,7 @@ const MySkills = () => {
       </div>
       <div className="skill">
         {techs.map(({ id, src, title, style }) => (
-          <div key={id}>
+          <div key={id}  >
             <img src={src} alt={title} />
             <p>{title}</p>
           </div>

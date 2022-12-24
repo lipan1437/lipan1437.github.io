@@ -4,8 +4,8 @@ import  "./NavbarStyles.css";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-
-
+import {AiOutlineDownload} from "react-icons/ai"
+import resume from "../assets/Lipan_Padhan_Resume.pdf"
 
 
 const links = [
@@ -21,6 +21,14 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click);
   };
+
+
+  const handleResumeDownload = () => {
+    window.open(
+     "https://drive.google.com/file/d/1GVua_3kW2MZGUMdGNApSG-m6lu-fDwXW/view?usp=share_link"
+    )
+  }
+   
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
@@ -67,6 +75,10 @@ const Navbar = () => {
           {link.title}
         </NavLink>
       ))}
+
+      <a href={resume}  target="_blank" rel="noreferrer noopener"  className="dwn" onClick={handleResumeDownload} download>  <AiOutlineDownload /> Resume</a>
+     
+
   </li>
 
       </ul>
