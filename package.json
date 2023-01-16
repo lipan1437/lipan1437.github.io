@@ -51,5 +51,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lipan1437/lipan1437.github.io/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

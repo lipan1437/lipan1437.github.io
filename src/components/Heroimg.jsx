@@ -3,7 +3,7 @@ import Introimg from "../assets/intro.jpg";
 import React from "react";
 import { Link } from "react-router-dom";
 import pp from "../assets/myPp.jpg"
-import resume from "../assets/Lipan_Padhan_Resume.pdf"
+import resume from "../assets/Lipan_Padhan_resume.pdf"
 import {AiOutlineDownload} from "react-icons/ai"
 const Heroimg = () => {
   return (

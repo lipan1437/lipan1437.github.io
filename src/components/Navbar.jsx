@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AiOutlineDownload } from "react-icons/ai";
-import resume from "../assets/Lipan_Padhan_Resume.pdf";
+import resume from "../assets/Lipan_Padhan_resume.pdf";
 
 const links = [
   { path: "/", title: "Home" },
