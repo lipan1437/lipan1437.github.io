@@ -49,7 +49,7 @@ const GithubCalendar = () => {
           blockSize={15}
           blockMargin={5}
           frontSize={16}
-          color="#ef6351"
+          color="#13d799"
         />
       </div>
     </div>

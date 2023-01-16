@@ -1,12 +1,11 @@
-import styles from "./Navbar.module.css"
-import  "./NavbarStyles.css";
+import styles from "./Navbar.module.css";
+import "./NavbarStyles.css";
 
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import {AiOutlineDownload} from "react-icons/ai"
-import resume from "../assets/Lipan_Padhan_Resume.pdf"
-
+import { AiOutlineDownload } from "react-icons/ai";
+import resume from "../assets/Lipan_Padhan_Resume.pdf";
 
 const links = [
   { path: "/", title: "Home" },
@@ -22,13 +21,11 @@ const Navbar = () => {
     setClick(!click);
   };
 
-
   const handleResumeDownload = () => {
     window.open(
-     "https://drive.google.com/file/d/1GVua_3kW2MZGUMdGNApSG-m6lu-fDwXW/view?usp=share_link"
-    )
-  }
-   
+      "https://drive.google.com/file/d/1GVua_3kW2MZGUMdGNApSG-m6lu-fDwXW/view?usp=share_link"
+    );
+  };
 
   const [color, setColor] = useState(false);
   const changeColor = () => {
@@ -62,25 +59,32 @@ const Navbar = () => {
         <li>
           <Link to="/contact">Contact</Link>
         </li> */}
-  <li>
-  {links.map((link) => (
-        <NavLink
-          className={({ isActive }) => {
-            return isActive ? styles.active : styles.default;
-          }}
-          key={link.path}
-          to={link.path}
-          end
-        >
-          {link.title}
-        </NavLink>
-      ))}
+        <li>
+          {links.map((link) => (
+            <NavLink
+              className={({ isActive }) => {
+                return isActive ? styles.active : styles.default;
+              }}
+              key={link.path}
+              to={link.path}
+              end
+            >
+              {link.title}
+            </NavLink>
+          ))}
 
-      <a href={resume}  target="_blank" rel="noreferrer noopener"  className="dwn" onClick={handleResumeDownload} download>  <AiOutlineDownload /> Resume</a>
-     
-
-  </li>
-
+          <a
+            href={resume}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="dwn"
+            onClick={handleResumeDownload}
+            download
+          >
+            {" "}
+            <AiOutlineDownload /> Resume
+          </a>
+        </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (

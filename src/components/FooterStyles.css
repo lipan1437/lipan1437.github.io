@@ -1,5 +1,6 @@
 .footer {
   width: 100%;
+  overflow: hidden;
   padding: 6rem 0;
   background-color: rgba(19, 19, 19, 0.8);
 }
@@ -36,6 +37,11 @@
 .social {
   margin-top: 1rem;
   padding: 0.5rem 0rem;
+  display: flex;
+  gap:25px;
+  text-align: center;
+  flex-wrap: wrap;
+   width: 300px;
 }
 
 h4 {
@@ -50,4 +56,20 @@ p {
   .footer-container {
     grid-template-columns: 1fr;
   }
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .social {
+    width: 150px;
+    flex-wrap: wrap;
+  }
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
 }

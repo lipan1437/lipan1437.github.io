@@ -4,15 +4,25 @@
 }
 .project-container {
   max-width: 1140px;
-  margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 40px;
   padding-bottom: 5rem;
+  margin: auto;
 }
 .project-card {
   background: #1a1919;
   padding: 1.2rem 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.project-card:hover {
+  background: #1a1919;
+  padding: 1.2rem 1rem;
+  width: 70%;
+  margin: auto;
+ transition: all 3s;
 }
 
 .project-card img {
@@ -37,8 +47,12 @@
 }
 @media screen and (max-width: 767px) {
   .project-container {
-    max-width: 90%;
-    margin: auto;
+    max-width: 100%;
     grid-template-columns: 1fr;
+  }
+  .project-card {
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    width: 100%;
   }
 }
