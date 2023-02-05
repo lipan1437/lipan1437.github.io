@@ -1,0 +1,31 @@
+
+/* .cla{
+  background-color:#ffdda1 #b07844 #e53e3e #ffdda1, #b07844 #af0e0e', '#835d3b;
+ background-color:linear(to-b, #ffdda1, #b07844) ; 
+
+} */
+
+.activeS {
+    text-decoration: none;
+    color: #00ff87;
+  }
+  
+  .defaultS {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  .sticky {
+    background-color: #212038d8 !important;
+    transition: all 0.3s ease-out 0s !important;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    backdrop-filter: blur(15px) !important;
+  }
+  
+  .navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important;
+  }
