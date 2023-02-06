@@ -77,6 +77,12 @@ const Contact = () => {
     SetMessage("");
   };
 
+  function handleSubmit(e) {
+    setTimeout(() => {
+      e.target.reset();
+    }, 3000);
+  }
+
   const bg = useColorModeValue(
     "#ebf8ff",
     "linear-gradient(221deg, rgba(14,4,4,1) 0%, rgba(61,61,61,1) 51%, rgba(64,64,64,1) 60%, rgba(55,55,55,1) 70%, rgba(14,4,4,1) 100%)"
@@ -201,7 +207,12 @@ const Contact = () => {
                 <Box bg="white" borderRadius="lg">
                   <Box m={8} color="#0B0E3F">
                     <VStack spacing={5}>
-                      <FormControl id="name">
+                      <FormControl
+                        method="POST"
+                        id="name"
+                        action="https://getform.io/f/89e0d57c-eee5-4446-893e-cda0ca4d0035"
+                        onSubmit={handleSubmit}
+                      >
                         <FormLabel>Your Name</FormLabel>
                         <InputGroup borderColor="#E0E1E7">
                           <InputLeftElement

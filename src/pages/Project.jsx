@@ -13,6 +13,7 @@ import "aos/dist/aos.css"
 import appletv from "../images/pro2.png"
 import bewakoof from "../images/bewakoof.png"
 import greenhouse from "../images/pro1.png"
+import overstock from "../images/overstock.png"
 import { ButtonGroup } from 'react-bootstrap';
 
 
@@ -46,6 +47,16 @@ const projects = [
     view:"https://serene-salmiakki-9b8c55.netlify.app/",
     git:"https://github.com/amansingh456/shallow-creature-244"
   },
+  {
+    type:"HTML",
+    name:"OverStock.com",
+    image:overstock,
+    description :"This  website is a clone of overStock.com . OverStock.com is a E-commerce website. This website we have been given in unit 3 while studying at Masai School . This is a collaborative project in a team of 4 member. Features are Home page | Login page | Single page | Product page  | Slider. ",
+    tech:" HTML, CSS, JavaScript",
+    view:"https://gleaming-wisp-eb6c81.netlify.app/",
+    git:"https://github.com/lipan1437/-coherent-mother-3147"
+  },
+  
   
 ]
 
