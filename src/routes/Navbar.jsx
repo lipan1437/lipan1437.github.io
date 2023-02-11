@@ -15,7 +15,7 @@ import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 import {AiOutlineDownload} from "react-icons/ai"
 import { Link } from "react-scroll";
-import resume from "../images/Lipan_Padhan_resume.pdf"
+import resume from "../images/Lipan_Padhan_Resume.pdf";
 const Links = [
   {
     name: "Home",
