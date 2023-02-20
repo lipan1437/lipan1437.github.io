@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c192f988.css",
-    "main.js": "/static/js/main.ffa80b41.js",
+    "main.css": "/static/css/main.fde80557.css",
+    "main.js": "/static/js/main.87ba07a1.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bewakoof.png": "/static/media/bewakoof.2f9a372cb63a1d87bcff.png",
     "static/media/overstock.png": "/static/media/overstock.8d97ac3c15ef0cbcd3d1.png",
@@ -10,7 +10,7 @@
     "static/media/autocad.png": "/static/media/autocad.25fc1e8021b9ba5ffda9.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/corel.png": "/static/media/corel.38c13b7556ae7697a737.png",
-    "static/media/Lipan_Padhan_Resume.pdf": "/static/media/Lipan_Padhan_Resume.d77298022f58c094b884.pdf",
+    "static/media/Lipan_Padhan_resume.pdf": "/static/media/Lipan_Padhan_resume.d77298022f58c094b884.pdf",
     "static/media/after.png": "/static/media/after.969e9eaff31eb4438486.png",
     "static/media/adobe.png": "/static/media/adobe.e59532a8c32f9490305a.png",
     "static/media/javascript.png": "/static/media/javascript.ac7a57fd9e0eed648be2.png",
@@ -24,12 +24,12 @@
     "static/media/chakra.png": "/static/media/chakra.36db97903e01c1040ed5.png",
     "static/media/css.png": "/static/media/css.409b3a09bb70c51542f8.png",
     "index.html": "/index.html",
-    "main.c192f988.css.map": "/static/css/main.c192f988.css.map",
-    "main.ffa80b41.js.map": "/static/js/main.ffa80b41.js.map",
+    "main.fde80557.css.map": "/static/css/main.fde80557.css.map",
+    "main.87ba07a1.js.map": "/static/js/main.87ba07a1.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c192f988.css",
-    "static/js/main.ffa80b41.js"
+    "static/css/main.fde80557.css",
+    "static/js/main.87ba07a1.js"
   ]
 }
