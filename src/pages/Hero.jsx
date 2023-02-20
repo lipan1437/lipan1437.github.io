@@ -18,7 +18,7 @@ import React, { useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
 import { IoMdDownload } from "react-icons/io";
-import resume from "../images/Lipan_Padhan_Resume.pdf";
+import resume from "../images/Lipan_Padhan_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import hero from "../images/myPp.jpg";
