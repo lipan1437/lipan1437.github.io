@@ -55,7 +55,7 @@ function Github() {
             blockRadius={5}
             blockMargin={15}
             color={QueryColor}
-            fontSize={18}
+            fontSize={17}
           />
         </Stack>
       </Tilt>

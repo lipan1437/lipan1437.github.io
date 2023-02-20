@@ -92,7 +92,7 @@ const Hero = () => {
           spacing={{ base: 1, md: 5 }}
         >
           <Text fontSize={{ base: "18px", sm: "2xl" }} fontWeight="m">
-            Hii i'm
+            Hii I'm
           </Text>
           <Tilt>
             <Text
