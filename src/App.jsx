@@ -36,8 +36,8 @@ function App() {
       <IconButton
         fontSize="35px"
         position={"fixed"}
-        top={{ base: 3, md: 10, lg: 100 }}
-        right={{ base: 3, md: "3", lg: "10" }}
+        top={{ base: 3, md: 5, lg: 100 }}
+        right={{ base: 3, md: 5, lg: 10 }}
         borderRadius={50}
         onClick={toggleColorMode}
         icon={colorMode === "light" ? <MdDarkMode /> : <BsSun />}
