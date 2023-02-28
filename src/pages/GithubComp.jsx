@@ -28,7 +28,6 @@ const GithubComp = () => {
       >
         <Github />
         <VStack gap={5}>
-          <Tilt>
             <Stack textAlign="center" alignContent="center" data-aos="zoom-in">
               <Text
                 color={HeadingColor}
@@ -41,7 +40,7 @@ const GithubComp = () => {
               </Text>
               <Text>My overall statistics and contribution</Text>
             </Stack>
-          </Tilt>
+  
 
           <Stack
             spacing={5}

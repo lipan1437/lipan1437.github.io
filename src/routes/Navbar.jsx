@@ -15,7 +15,7 @@ import React, { useState } from "react";
 import { Image } from "react-bootstrap";
 import {AiOutlineDownload} from "react-icons/ai"
 import { Link } from "react-scroll";
-import resume from "../images/Lipan_Padhan_resume.pdf";
+import resume from "../images/fw18_0399-Lipan-Padhan-Resume.pdf";
 const Links = [
   {
     name: "Home",
@@ -78,6 +78,7 @@ const Navbar = () => {
       w="100%"
       h="64px"
       borderBottom={borderBottomColor}
+      cursor="pointer"
     >
       //#302E4C
       <Stack minW="80px" w="120px" alignItems="center"></Stack>

@@ -207,7 +207,7 @@ const Project = () => {
               </Text>
               <VStack>
                 <Text
-                  display={{ base: "none", sm: "inline-flex" }}
+                  display={{ base: "none", md:"inline-flix",sm: "inline-flex"}}
                   fontSize={{ base: "13px", md: "12px", lg: "12px", xl: "sm" }}
                   color={descColor}
                 >
