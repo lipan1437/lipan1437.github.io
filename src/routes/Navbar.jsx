@@ -83,7 +83,7 @@ const Navbar = () => {
       //#302E4C
       <Stack minW="80px" w="120px" alignItems="center"></Stack>
       <Spacer />
-      <Box display={{ base: "none", md: "none", lg: "block" }}>
+      <Box display={{ base: "none", md: "none", lg: "block"}}>
         <HStack>
           {Links.map((el, i) => (
             <Link
