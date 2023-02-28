@@ -36,7 +36,7 @@ const Hero = () => {
 
   const bg = useColorModeValue(
     "linear-gradient(3deg, rgba(216,241,255,1) 0%, rgba(175,188,255,0) 100%)",
-    "linear-gradient(221deg, rgba(14,4,4,1) 0%, rgba(61,61,61,1) 51%, rgba(64,64,64,1) 60%, rgba(55,55,55,1) 70%, rgba(14,4,4,1) 100%)"
+    "linear-gradient(221deg, #0e0404 0%, rgba(61,61,61,1) 51%, rgba(64,64,64,1) 60%, rgba(55,55,55,1) 70%, rgba(14,4,4,1) 100%)"
   );
 
   const HeroImage = useColorModeValue(hero, hero);
@@ -47,7 +47,7 @@ const Hero = () => {
     "linear(to-b, #ffdda1, #b07844)"
   );
 
-  const txtWriter = useColorModeValue("#1dd3b0", "white");
+  const txtWriter = useColorModeValue("#0e0404", "white");
 
   const buttonColor = useColorModeValue(
     "#01497c",

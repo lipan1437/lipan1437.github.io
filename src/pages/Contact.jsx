@@ -263,8 +263,8 @@ const Contact = () => {
                           onClick={SendMail}
                           variant="solid"
                           fontWeight="medium"
-                          color="white"
-                          colorScheme="green"
+                          color="black"
+                          colorScheme="cyan"
                         >
                           Send Message
                         </Button>
