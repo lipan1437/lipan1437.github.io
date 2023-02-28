@@ -84,7 +84,7 @@ const About = () => {
           >
             <Text
               marginTop={{ base: "-40px" }}
-              fontSize={{ base: "15px", lg: "xl" }}
+              fontSize={{ base: "15px", lg: "xl",}}
               color="gray"
             >
               Hello my name is Lipan Padhan. I'm a Self-motivated and Aspiring
