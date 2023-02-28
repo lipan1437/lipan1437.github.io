@@ -20,9 +20,7 @@ function App() {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <div  style={{
-      overflow:"auto"
-    }}>
+    <div className="main">
       <Hero />
 
       <About />
