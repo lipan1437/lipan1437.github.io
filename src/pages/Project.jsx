@@ -63,7 +63,7 @@ const projects = [
     description:
       "It is a Collaborated project complete in 5 days with a team of 4 members. An Online shopping website clone of bewakoof.com where user can shop any type of clothing. Features are Home page | Login page | Single page | Slider.",
     tech: " HTML, CSS, JavaScript, ReactJS, ChakraUI, Redux",
-    view: "https://serene-salmiakki-9b8c55.netlify.app/",
+    view: "https://fraudy.vercel.app/",
     git: "https://github.com/amansingh456/shallow-creature-244",
   },
   {
