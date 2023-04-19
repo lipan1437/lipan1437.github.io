@@ -32,6 +32,7 @@ import appletv from "../images/pro2.png";
 import bewakoof from "../images/bewakoof.png";
 import greenhouse from "../images/pro1.png";
 import overstock from "../images/overstock.png";
+import gobazaar from "../images/gobazzar.png"
 import { ButtonGroup } from "react-bootstrap";
 
 const projects = [
@@ -76,6 +77,16 @@ const projects = [
     view: "https://gleaming-wisp-eb6c81.netlify.app/",
     git: "https://github.com/lipan1437/-coherent-mother-3147",
   },
+  {
+    type: "MERN",
+    name: "GoBazaar.com",
+    image: gobazaar,
+    description:
+      "This  website is a clone of Quickerbazzer.com. It's a E-commerce website where user can sell and buy their products. This is a collaborative project in a team of 5 member. Features are Home page | Login page | Single page | Product page  | Slider | Admin page . ",
+    tech: " React, Redux, CSS, NodeJs, ExpressJs, Mongodb",
+    view: "https://gobazzar.vercel.app/",
+    git: "https://github.com/lipan1437/Gobazzar.com",
+  },
 ];
 
 const Project = () => {
@@ -116,6 +127,7 @@ const Project = () => {
     { name: "All", value: "All" },
     { name: "React", value: "React" },
     { name: "HTML", value: "HTML" },
+    { name: "MERN", value: "MERN" },
   ];
 
   const [selectedBtn, setSelectedBtn] = useState(0);

@@ -154,7 +154,7 @@ const Contact = () => {
                         _hover={{ border: "2px solid white" }}
                         leftIcon={<MdEmail size="20px" />}
                       >
-                        lipanpadhan1432@gmail.com
+                        <a href="mailto:lipanpadhan1432@gmail.com">lipanpadhan1432@gmail.com </a>
                       </Button>
                       <Button
                         size="md"
