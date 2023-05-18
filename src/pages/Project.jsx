@@ -32,7 +32,7 @@ import appletv from "../images/pro2.png";
 import bewakoof from "../images/bewakoof.png";
 import greenhouse from "../images/pro1.png";
 import overstock from "../images/overstock.png";
-import gobazaar from "../images/gobazzar.png"
+import gobazaar from "../images/gobazzar.png";
 import { ButtonGroup } from "react-bootstrap";
 
 const projects = [
@@ -62,7 +62,7 @@ const projects = [
     name: "Fraudy.com",
     image: bewakoof,
     description:
-      "It is a Collaborated project complete in 5 days with a team of 4 members. An Online shopping website clone of bewakoof.com where user can shop any type of clothing. Features are Home page | Login page | Single page | Slider.",
+      "It is a Collaborated project completed in 5 days with a team of 4 members. An Online shopping website clone of bewakoof.com where user can shop any type of clothing. Features are Home page | Login page | Single page | Slider | Product page .",
     tech: " HTML, CSS, JavaScript, ReactJS, ChakraUI, Redux",
     view: "https://fraudy.vercel.app/",
     git: "https://github.com/amansingh456/shallow-creature-244",
@@ -72,7 +72,7 @@ const projects = [
     name: "OverStock.com",
     image: overstock,
     description:
-      "This  website is a clone of overStock.com . OverStock.com is a E-commerce website. This website we have been given in unit 3 while studying at Masai School . This is a collaborative project in a team of 4 member. Features are Home page | Login page | Single page | Product page  | Slider. ",
+      "This  website is a clone of overStock.com. OverStock.com is a E-commerce website.This website we have been given in unit 3 while studying at Masai School . This is a collaborative project in a team of 4 member. Features are Home page | Login page | Single page | Product page  | Slider. ",
     tech: " HTML, CSS, JavaScript",
     view: "https://gleaming-wisp-eb6c81.netlify.app/",
     git: "https://github.com/lipan1437/-coherent-mother-3147",
@@ -82,7 +82,7 @@ const projects = [
     name: "GoBazaar.com",
     image: gobazaar,
     description:
-      "This  website is a clone of Quickerbazzer.com. It's a E-commerce website where user can sell and buy their products. This is a collaborative project in a team of 5 member. Features are Home page | Login page | Single page | Product page  | Slider | Admin page . ",
+      "This  website is a clone of Quickerbazzer.com.It's a E-commerce website where user can sell and buy their products. This is a collaborative project in a team of 5 member. Features are Home page | Login page | Single page | Product page  | Slider | Admin page . ",
     tech: " React, Redux, CSS, NodeJs, ExpressJs, Mongodb",
     view: "https://gobazzar.vercel.app/",
     git: "https://github.com/lipan1437/Gobazzar.com",
@@ -117,7 +117,7 @@ const Project = () => {
   const HeadingColor = useColorModeValue("black", "white");
   const QueryColor = useColorModeValue("#07beb8", "#eac288");
 
-  const divColor = useColorModeValue("white", "rgba(255, 255, 255, 0.3)");
+  const divColor = useColorModeValue("#f9f7f3", "rgba(255, 255, 255, 0.3)");
   const selected = useColorModeValue("#0b3954", "#b5925f");
 
   const descColor = useColorModeValue("gray.500", "white");
@@ -206,7 +206,8 @@ const Project = () => {
               bg={divColor}
               p={4}
               spacing={4}
-              alignItems="center" justifyContent="space-between"
+              alignItems="center"
+              justifyContent="space-between"
             >
               <VStack>
                 <Image borderRadius={5} src={el.image} alt="sufi" />
@@ -219,9 +220,14 @@ const Project = () => {
               </Text>
               <VStack>
                 <Text
-                  display={{ base: "none", md:"inline-flix",sm: "inline-flex"}}
+                  display={{
+                    base: "none",
+                    md: "inline-flix",
+                    sm: "inline-flex",
+                  }}
                   fontSize={{ base: "13px", md: "12px", lg: "12px", xl: "sm" }}
                   color={descColor}
+                  textAlign="justify"
                 >
                   {el.description}
                 </Text>
@@ -242,30 +248,28 @@ const Project = () => {
                     {`Tech Stack - ${el.tech}`}
                   </Highlight>
                 </Text>
-
-               
               </VStack>
               <HStack spacing={5}>
-                  <a href={el.view} target="_blank">
-                    <Text
-                      color={selectedGit}
-                      fontSize={{ lg: "xl", xl: "2xl" }}
-                      className="projectButton"
-                    >
-                      <ViewIcon />
-                    </Text>
-                  </a>
+                <a href={el.view} target="_blank">
+                  <Text
+                    color={selectedGit}
+                    fontSize={{ lg: "xl", xl: "2xl" }}
+                    className="projectButton"
+                  >
+                    <ViewIcon />
+                  </Text>
+                </a>
 
-                  <a href={el.git} target="_blank">
-                    <Text
-                      color={selectedGit}
-                      fontSize={{ lg: "xl", xl: "2xl" }}
-                      className="projectButton"
-                    >
-                      <BsGithub />
-                    </Text>
-                  </a>
-                </HStack>
+                <a href={el.git} target="_blank">
+                  <Text
+                    color={selectedGit}
+                    fontSize={{ lg: "xl", xl: "2xl" }}
+                    className="projectButton"
+                  >
+                    <BsGithub />
+                  </Text>
+                </a>
+              </HStack>
             </VStack>
           ))}
         </SimpleGrid>
