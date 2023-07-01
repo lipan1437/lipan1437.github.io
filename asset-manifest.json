@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff440228.css",
-    "main.js": "/static/js/main.d6a85c98.js",
+    "main.js": "/static/js/main.9be9bd5d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bewakoof.png": "/static/media/bewakoof.2f9a372cb63a1d87bcff.png",
     "static/media/overstock.png": "/static/media/overstock.8d97ac3c15ef0cbcd3d1.png",
@@ -10,8 +10,8 @@
     "static/media/gobazzar.png": "/static/media/gobazzar.5d6c48379c59806e8665.png",
     "static/media/autocad.png": "/static/media/autocad.25fc1e8021b9ba5ffda9.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
+    "static/media/fw18_0399-Lipan-Padhan-Resume.pdf": "/static/media/fw18_0399-Lipan-Padhan-Resume.6dd55e8d029a7e39e849.pdf",
     "static/media/corel.png": "/static/media/corel.38c13b7556ae7697a737.png",
-    "static/media/fw18_0399-Lipan-Padhan-Resume.pdf": "/static/media/fw18_0399-Lipan-Padhan-Resume.d77298022f58c094b884.pdf",
     "static/media/after.png": "/static/media/after.969e9eaff31eb4438486.png",
     "static/media/adobe.png": "/static/media/adobe.e59532a8c32f9490305a.png",
     "static/media/javascript.png": "/static/media/javascript.ac7a57fd9e0eed648be2.png",
@@ -26,11 +26,11 @@
     "static/media/css.png": "/static/media/css.409b3a09bb70c51542f8.png",
     "index.html": "/index.html",
     "main.ff440228.css.map": "/static/css/main.ff440228.css.map",
-    "main.d6a85c98.js.map": "/static/js/main.d6a85c98.js.map",
+    "main.9be9bd5d.js.map": "/static/js/main.9be9bd5d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff440228.css",
-    "static/js/main.d6a85c98.js"
+    "static/js/main.9be9bd5d.js"
   ]
 }
